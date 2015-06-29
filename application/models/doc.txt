@@ -1,0 +1,95 @@
+/*	
+  
+ -----------------------------------Quries------------------------------------------------
+INSERT INTO table_name (column1,column2,column3,...)
+VALUES (value1,value2,value3,...);
+
+ 
+SELECT DISTINCT column_name,column_name
+FROM table_name;
+
+UPDATE table_name
+SET column1=value1,column2=value2,...
+WHERE some_column=some_value;
+
+DELETE FROM table_name
+WHERE some_column=some_value;
+
+
+SELECT column_name(s)
+FROM table_name
+LIMIT number;
+
+
+SELECT column_name, column_name
+FROM table_name
+ORDER BY column_name ASC|DESC, column_name ASC|DESC;
+
+
+SELECT column_name(s)
+FROM table_name
+WHERE column_name LIKE pattern; %s-starting wit s s% ending %s% this patterns in db
+
+
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (value1,value2,...);
+
+SELECT * FROM Customers
+WHERE City IN ('Paris','London');
+
+SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+
+SELECT * FROM Products
+WHERE Price NOT BETWEEN 10 AND 20;
+
+SELECT * FROM Products
+WHERE (Price BETWEEN 10 AND 20)
+AND NOT CategoryID IN (1,2,3);
+
+
+
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers
+ON Orders.CustomerID=Customers.CustomerID;
+
+SELECT column_name(s)
+FROM table1
+INNER JOIN table2
+ON table1.column_name=table2.column_name;
+
+SELECT column_name(s)
+FROM table1
+LEFT JOIN table2
+ON table1.column_name=table2.column_name;
+
+SELECT column_name(s)
+FROM table1
+RIGHT JOIN table2
+ON table1.column_name=table2.column_name;
+
+SELECT column_name(s)
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column_name=table2.column_name;
+
+SELECT column_name(s) FROM table1
+UNION
+SELECT column_name(s) FROM table2;
+
+SELECT column_name(s) FROM table1
+UNION ALL
+SELECT column_name(s) FROM table2;
+
+SELECT column_name(s)
+INTO newtable [IN externaldb]
+FROM table1;
+
+
+
+
+-------------------------------------------------------------------------------------
+ */

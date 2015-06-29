@@ -1,0 +1,33 @@
+session management
+
+form validation
+
+email sending
+
+paging
+
+image resize and upload
+
+cookies
+
+cart implementation
+
+web services
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+YOUR MAIN RESPONSIBILITIES
+
+Expert level understanding of object-oriented web development
+Expert in OOAD (Object Oriented Architecture & Design)
+Profound knowledge of ZEND framework (PHP)
+Excellent JavaScript competence (object-oriented, native, application and RIA frameworks).
+Great command over JQuery and ExtJS Framework.
+Excellent understanding of any RDBMS like Oracle, SQL Server, MySQL
+Understanding of various development methodologies like AGILE, Waterfall etc.
+Should be capable of handling product versions, documentation and development standards
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
